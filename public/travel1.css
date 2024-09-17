@@ -9,7 +9,7 @@
     height: 114px;
     position: fixed;
     z-index: 10;
-    width: 87.3%;
+    width: 100%;
 }
 .name
 {
@@ -75,30 +75,32 @@
 {
     background-color: #fff;
     padding: 3px;
+    display: flex;
+    justify-content: space-between;
 }
-.social-icons i, span{
+
+.social-icons i, .social-icons span{
     color: #FEA116;
     font-weight: 600;
+    padding: 0px 10px;
 }
 .social-icons
 {   
-    padding-top: 10px;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    padding-top: 5px;
 }
 li a
 {
     text-decoration: none;
     color: #fff;
 }
+.home{
+    padding: 0;
+}
 .home li
 {
     display: inline-block;
     position: relative;
-    padding: 20px;
-    margin: auto;
+    padding:  20px;
     color: #fff;
 }
 .btn-nav
@@ -371,8 +373,9 @@ li a
     background-image: url(assets/carousel-2.jpg) ;
     background-size: cover;
     height: 500px;
-    width: 100%;
+    width: 92%;
     margin-bottom: 10%;
+    margin-top: 10%;
 }
 #client-extra
 {
@@ -451,14 +454,22 @@ li a
     padding: 8px;
     border-radius: 50%;
 }
-
-@media only screen and (max-width:600px) {
- #navbar{
-    display:none;
- }
-.name-mob{
-    display: block;
+.last{
+    display: flex;
+    justify-content: flex-end;
 }
+.last span{
+    padding: 0px 20px;
+    color: #fff;
+    font-size: 20px;
+    border-right: 2px solid #fff;
+}
+
+@media only screen and (max-width:1024px) {
+ #navbar{
+    width: 100%;
+ }
+
 
 
 

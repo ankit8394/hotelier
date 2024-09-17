@@ -11,8 +11,8 @@ function home() {
             <div className="name">HOTELIER</div>
           </div>
           <div className="col-md-9">
-            <div className="row" id="contact">
-              <div className="col-md-5">
+            <div className="row">
+              <div className="col-md-12" id="contact">
                 <div style={{ padding: 5 }}>
                   <span style={{ color: "#66656F" }}>
                     <i
@@ -29,14 +29,11 @@ function home() {
                     +91 8394834953
                   </span>
                 </div>
-              </div>
-              <div className="col-md-5" />
-              <div className="col-md-2">
                 <div className="social-icons">
                   <a target="_blank" href="https://github.com/ankit8394">
                     <i className="fa-brands fa-github" />
                   </a>
-                  <span>Get In Touch</span>
+                  <span>Get In Touch</span> 
                   <a
                     target="_blank"
                     href="https://www.linkedin.com/in/ankit-5ab596292/"
@@ -45,9 +42,11 @@ function home() {
                   </a>
                 </div>
               </div>
+              
+              
             </div>
             <div className="row">
-              <div className="col-md-8" style={{ padding: 0, margin: 0 }}>
+              <div className="col-md-9" style={{ padding: 0, margin: 0 }}>
                 <div className="bbb">
                   <ul className="home">
                     <li>
@@ -145,7 +144,6 @@ function home() {
                   </ul>
                 </div>
               </div>
-              <div className="col-md-1" />
               <div className="col-md-3">
                 <button className="btn-nav">
                   PREMIUM VERSION <span className="icon-arrow">→</span>
@@ -196,7 +194,7 @@ function home() {
     </div>
     {/*End Main header part here*/}
     {/*Start header area(1st-part)*/}
-    <div className="container">
+    <div className="container-fluid">
       <div className="row">
         <div className="col-md-12" style={{ margin: 0, padding: 0 }}>
           <div id="carouselExample" className="carousel slide">
@@ -300,7 +298,7 @@ function home() {
     </div>
     {/*End header area(1st-part)*/}
     {/*Start data area(lower header)*/}
-    <div className="container" id="datearea">
+    <div className="container-fluid" id="datearea">
       <div className="row">
         <div className="col-md-1" />
         <div className="col-md-2">
@@ -346,8 +344,8 @@ function home() {
     </div>
     {/*End data area*/}
     {/*Start about area(2nd part)*/}
-    <div className="container" style={{ marginTop: "7%" }}>
-      <div className="row">
+    <div className="container-fluid" style={{ marginTop: "7%" }}>
+      <div className="row px-5 py-4">
         <div className="col-md-6">
           <div className="row">
             <div className="col-md-12" style={{ marginTop: "15%" }}>
@@ -461,7 +459,7 @@ function home() {
     </div>
     {/*End about area(2nd part)*/}
     {/* Start explopre room area(3rd part)*/}
-    <div className="container">
+    <div className="container-fluid">
       <div className="row" style={{ marginTop: "10%" }}>
         <div className="col-md-12" style={{ textAlign: "center" }}>
           <p style={{ color: "#FEA116" }}>
@@ -472,7 +470,7 @@ function home() {
           </h1>
         </div>
       </div>
-      <div className="row" style={{ marginTop: "3%" }}>
+      <div className="row px-5 py-4" style={{ marginTop: "3%" }}>
         <div className="col-md-4">
           <div className="card" style={{ width: "100%" }}>
             <img
@@ -711,8 +709,8 @@ function home() {
     </div>
     {/* End explopre area(3rd part)*/}
     {/*start advert area(4th part)*/}
-    <div className="container" style={{ marginTop: "3%", marginBottom: "5%" }}>
-      <div className="row">
+    <div className="container-fluid" style={{ marginTop: "3%", marginBottom: "5%" }}>
+      <div className="row px-5 py-4">
         <div className="col-md-6">
           <div className="container" style={{ backgroundColor: "#0F172B" }}>
             <div className="row" style={{ marginTop: "9%", marginLeft: "5%" }}>
@@ -756,7 +754,7 @@ function home() {
     </div>
     {/*End advert area(4th part)*/}
     {/*start service area(5th part)*/}
-    <div className="container" style={{ backgroundColor: "#F4F4F4" }}>
+    <div className="container-fluid" style={{ backgroundColor: "#F4F4F4", paddingTop:"40px" }}>
       <div className="row">
         <div
           className="col-md-12"
@@ -770,7 +768,7 @@ function home() {
           </h1>
         </div>
       </div>
-      <div className="row" style={{ padding: 10 }}>
+      <div className="row px-5 py-4" style={{ padding: 10 }}>
         <div className="col-md-4">
           <div className="card-grp-6" id="ab">
             {/*when i hover icon it is not working*/}
@@ -821,10 +819,9 @@ function home() {
           </div>
         </div>
       </div>
-      <div className="row" style={{ padding: 12 }}>
+      <div className="row px-5 py-4" style={{ padding: 12 }}>
         <div className="col-md-4">
           <div className="card-grp-6" id="ab">
-            {/*when i hover icon it is not working*/}
             <i
               style={{ marginBottom: 25 }}
               id="icon-grp-6"
@@ -875,8 +872,8 @@ function home() {
     </div>
     {/*End service area(5th part)*/}
     {/*Start 2nd carousel area(6th part)*/}
-    <div className="container" id="carousel-2">
-      <div className="row">
+    <div className="container-fluid" id="carousel-2">
+      <div className="row px-5 py-4">
         <div className="col-md-1" />
         <div className="col-md-5" id="client-extra" style={{ marginTop: "12%" }}>
           <div className="row">
@@ -889,7 +886,7 @@ function home() {
               </p>
             </div>
           </div>
-          <div className="row">
+          <div className="row px-5 py-4">
             <div className="col-md-2">
               <img className="img-fluid" src="assets/testimonial-2.jpg" alt="" />
             </div>
@@ -916,7 +913,7 @@ function home() {
               </p>
             </div>
           </div>
-          <div className="row">
+          <div className="row px-5 py-4">
             <div className="col-md-2">
               <img className="img-fluid" src="assets/testimonial-2.jpg" alt="" />
             </div>
@@ -927,7 +924,6 @@ function home() {
               <span>Profession</span>
             </div>
           </div>
-          {/*incomplete area*/}
         </div>
         <div className="col-md-1">
           <i
@@ -944,7 +940,7 @@ function home() {
     </div>
     {/*End 2nd carousel area(6th part)*/}
     {/*Start team area here*/}
-    <div className="container">
+    <div className="container-fluid">
       <div className="row" style={{ marginTop: "10%" }}>
         <div className="col-md-12" style={{ textAlign: "center" }}>
           <p style={{ color: "#FEA116" }}>
@@ -955,7 +951,7 @@ function home() {
           </h1>
         </div>
       </div>
-      <div className="row" style={{ marginTop: "5%", marginBottom: "7%" }}>
+      <div className="row px-5 py-5" style={{ marginTop: "5%", marginBottom: "7%" }}>
         <div className="col-md-3">
           <div className="card">
             <img
@@ -1065,7 +1061,7 @@ function home() {
     {/*End team area here*/}
     {/*Start footer area here*/}
     <div
-      className="container"
+      className="container-fluid"
       style={{
         backgroundColor: "#0F172B",
         marginTop: "10%",
@@ -1312,9 +1308,9 @@ function home() {
           </div>
         </div>
       </div>
-      <hr style={{ color: "#5f697f", borderWidth: 2, marginTop: "10%" }} />
+      <hr style={{ color: "#5f697f", borderWidth: 2, marginTop: "10%",opacity:"1" }} />
       <div className="row">
-        <div className="col-md-5">
+        <div className="col-md-6">
           <div>
             <p style={{ color: "#fff" }}>
               ©<u>Your Site Name,</u> All Rights Reserved. Designed By{" "}
@@ -1322,29 +1318,11 @@ function home() {
             </p>
           </div>
         </div>
-        <div className="col-md-4" />
-        <div className="col-md-3">
-          <div className="row">
-            <div className="col-md-3">
-              <div style={{ borderRight: "1px solid #c7cbcfe8" }}>
-                <p style={{ color: "#fff" }}>HOME</p>
-              </div>
-            </div>
-            <div className="col-md-3" style={{ padding: 0 }}>
-              <div style={{ borderRight: "1px solid #c7cbcfe8" }}>
-                <p style={{ color: "#fff" }}>Cookies</p>
-              </div>
-            </div>
-            <div className="col-md-3">
-              <div style={{ borderRight: "1px solid #c7cbcfe8" }}>
-                <p style={{ color: "#fff" }}>Help</p>
-              </div>
-            </div>
-            <div className="col-md-3">
-              <div>
-                <p style={{ color: "#fff" }}>FAQs</p>
-              </div>
-            </div>
+        <div className="col-md-6">
+          <div className='last'>
+          <span>Home</span>
+           <span>Help</span>
+           <span style={{border:"none"}}>FAQs</span>
           </div>
         </div>
       </div>
