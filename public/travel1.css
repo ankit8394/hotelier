@@ -78,7 +78,9 @@
     display: flex;
     justify-content: space-between;
 }
-
+#contact i{
+    padding: 0px 10px;
+}
 .social-icons i, .social-icons span{
     color: #FEA116;
     font-weight: 600;
@@ -260,6 +262,14 @@ li a
     border: 1px solid #CED4DA;
     height: 38px;
 }
+#btn-div #btn1{
+    display: flex;
+    justify-content: flex-end;
+}
+#btn-div #btn2{
+    display: flex;
+    justify-content: flex-start;
+}
 .btn1
 {
     background-color: #FEA116;
@@ -267,9 +277,7 @@ li a
     font-size: 14pt;
     border: none;
     border-radius: 3px;
-    padding: 17PX;
-    width: 90%;
-    margin-left: 60%;
+    padding: 15PX;
 }
 .btn2
 {
@@ -278,9 +286,7 @@ li a
     font-size: 13pt;
     border: none;
     border-radius: 3px;
-    padding: 17PX;
-    width: 90%;
-    margin-left: -60%;
+    padding: 15PX;
     font-weight: 500;
 }
 .p-card-1
@@ -311,27 +317,7 @@ li a
     width: 100%;
     height: 40px;
 }
-.btn5
-{
-    width: 80%;
-    background-color: #FEA116;
-    color: #fff;
-    border: none;
-    border-radius: 2px;
-    padding: 15px;
-    font-size: 14pt;
-}
-.btn6
-{
-    width: 80%;
-    background-color: #fff;
-    border: none;
-    border-radius: 2px;
-    padding: 15px;
-    font-size: 14pt;
-    font-weight: 600;
-    margin-left: -20%;
-}
+
 #icon-grp-6
 {
     color: #FEA116;
@@ -469,7 +455,12 @@ li a
  #navbar{
     width: 100%;
  }
-
+ .btn-nav
+ {
+     padding: 11.5px 25px;
+     font-weight: 600;
+ }
+ 
 
 
 

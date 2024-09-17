@@ -18,7 +18,7 @@ function home() {
                     <i
                       className="fa-solid fa-envelope"
                       style={{ color: "#fea116" }}
-                    />{" "}
+                    />
                     ankit0839483@gmail.com
                   </span>
                   <span style={{ color: "#66656F" }}>
@@ -42,8 +42,6 @@ function home() {
                   </a>
                 </div>
               </div>
-              
-              
             </div>
             <div className="row">
               <div className="col-md-9" style={{ padding: 0, margin: 0 }}>
@@ -211,16 +209,13 @@ function home() {
                   <p style={{ fontSize: "50pt" }}>
                     Discover A Brand <br /> Luxurious Hotel
                   </p>
-                  <div className="row">
-                    <div className="col-md-2" />
-                    <div className="col-md-3">
+                  <div className="row" id='btn-div'>
+                    <div className="col-md-6" id='btn1'>
                       <button className="btn1">OUR ROOMS</button>
                     </div>
-                    <div className="col-md-2" />
-                    <div className="col-md-3">
+                    <div className="col-md-6" id='btn2'>
                       <button className="btn2">BOOK A ROOMS</button>
                     </div>
-                    <div className="col-md-2" />
                   </div>
                 </div>
                 <button
@@ -257,19 +252,16 @@ function home() {
                   id="slide-title"
                 >
                   <h5>LUXURY LIVING</h5>
-                  <p style={{ fontSize: "50pt", lineHeight: 80 }}>
+                  <p style={{ fontSize: "50pt",}}>
                     Discover A Brand <br /> Luxurious Hotel
                   </p>
-                  <div className="row">
-                    <div className="col-md-2" />
-                    <div className="col-md-3">
+                  <div className="row" id='btn-div'>
+                    <div className="col-md-6" id='btn1'>
                       <button className="btn1">OUR ROOMS</button>
                     </div>
-                    <div className="col-md-2" />
-                    <div className="col-md-3">
+                    <div className="col-md-6" id='btn2'>
                       <button className="btn2">BOOK A ROOMS</button>
                     </div>
-                    <div className="col-md-2" />
                   </div>
                 </div>
               </div>
@@ -729,14 +721,15 @@ function home() {
                 </p>
               </div>
             </div>
-            <div className="row" style={{ paddingBottom: 80, marginLeft: "5%" }}>
-              <div className="col-md-5">
-                <button className="btn5">OUR ROOMS</button>
-              </div>
-              <div className="col-md-5">
-                <button className="btn6">BOOK A ROOMS</button>
-              </div>
-            </div>
+
+            <div className="row"  style={{ paddingBottom: 80 }} id='btn-div'>
+                    <div className="col-md-6" id='btn1'>
+                      <button className="btn1">OUR ROOMS</button>
+                    </div>
+                    <div className="col-md-6" id='btn2'>
+                      <button className="btn2">BOOK A ROOMS</button>
+                    </div>
+                  </div>
           </div>
         </div>
         <div
