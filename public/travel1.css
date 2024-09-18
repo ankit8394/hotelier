@@ -458,12 +458,19 @@ li a
     .name-mob{
         display: block;
     }
-}
-@media only screen and (max-width:854px){
     .btn-nav span{
-     display: none; 
+        display: none; 
+       }
+    .space
+    {
+        border: 6px solid #DEE2E6;
+        border-style: double;
+        text-align: center;
+        padding: 25px;
+        margin: 4px;
     }
 }
+
 @media only screen and (max-width:1024px) {
  #navbar{
     width: 100%;

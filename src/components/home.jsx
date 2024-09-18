@@ -294,37 +294,29 @@ function home() {
     {/*Start data area(lower header)*/}
     <div className="container-fluid" id="datearea">
       <div className="row">
-        <div className="col-md-1" />
-        <div className="col-md-2">
+        <div className="col-md-12">
+          <div className="input">
+            <input type="date" className="select" placeholder="Arrival Date" />
+          </div>
           <div className="input">
             <input type="date" className="select" placeholder="Arrival Date" />
           </div>
         </div>
-        <div className="col-md-2">
-          <div className="input">
-            <input type="date" className="select" placeholder="Arrival Date" />
-          </div>
-        </div>
-        <div className="col-md-2">
-          <div className="input">
+        <div className="input">
             <select name="" className="select">
               <option value="">Adult</option>
               <option value="">Adult1</option>
               <option value="">Adult2</option>
             </select>
           </div>
+        <div className="input">
+          <select name="" className="select">
+            <option value="">Adult</option>
+            <option value="">Adult1</option>
+            <option value="">Adult2</option>
+          </select>
         </div>
-        <div className="col-md-2">
-          <div className="input">
-            <select name="" className="select">
-              <option value="">Adult</option>
-              <option value="">Adult1</option>
-              <option value="">Adult2</option>
-            </select>
-          </div>
-        </div>
-        <div className="col-md-2">
-          <div className="input">
+        <div className="input">
             <button
               className="btn btn-success"
               style={{ width: "100%", borderRadius: 3, height: 38 }}
@@ -332,8 +324,6 @@ function home() {
               Submit
             </button>
           </div>
-        </div>
-        <div className="col-md-1" />
       </div>
     </div>
     {/*End data area*/}
