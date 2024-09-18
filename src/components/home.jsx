@@ -48,7 +48,7 @@ function home() {
                 <div className="bbb">
                   <ul className="home">
                     <li>
-                      <a href="">HOME</a>
+                      <a href="#main-home">HOME</a>
                       <ul className="sub-home">
                         <li>
                           <a href="">home1</a>
@@ -73,7 +73,7 @@ function home() {
                       </ul>
                     </li>
                     <li>
-                      <a href="">ABOUT</a>
+                      <a href="#main-about">ABOUT</a>
                       <ul className="sub-home">
                         <li>
                           <a href="">about1</a>
@@ -87,7 +87,7 @@ function home() {
                       </ul>
                     </li>
                     <li>
-                      <a href="">SERVICES</a>
+                      <a href="#main-service">SERVICES</a>
                       <ul className="sub-home">
                         <li>
                           <a href="">service1</a>
@@ -101,7 +101,7 @@ function home() {
                       </ul>
                     </li>
                     <li>
-                      <a href="">ROOMS</a>
+                      <a href="#main-room">ROOMS</a>
                       <ul className="sub-home">
                         <li>
                           <a href="">Economic</a>
@@ -129,7 +129,7 @@ function home() {
                       </ul>
                     </li>
                     <li>
-                      <a href="">CONTACT</a>
+                      <a href="#main-contact">CONTACT</a>
                       <ul className="sub-home">
                         <li>
                           <a href="">ankit0839483@gmail.com</a>
@@ -192,7 +192,7 @@ function home() {
     </div>
     {/*End Main header part here*/}
     {/*Start header area(1st-part)*/}
-    <div className="container-fluid">
+    <div className="container-fluid" id='main-home'>
       <div className="row">
         <div className="col-md-12" style={{ margin: 0, padding: 0 }}>
           <div id="carouselExample" className="carousel slide">
@@ -336,7 +336,7 @@ function home() {
     </div>
     {/*End data area*/}
     {/*Start about area(2nd part)*/}
-    <div className="container-fluid" style={{ marginTop: "7%" }}>
+    <div className="container-fluid" id='main-about' style={{ marginTop: "7%" }}>
       <div className="row px-5 py-4">
         <div className="col-md-6">
           <div className="row">
@@ -747,7 +747,7 @@ function home() {
     </div>
     {/*End advert area(4th part)*/}
     {/*start service area(5th part)*/}
-    <div className="container-fluid" style={{ backgroundColor: "#F4F4F4", paddingTop:"40px" }}>
+    <div className="container-fluid" id='main-service' style={{ backgroundColor: "#F4F4F4", paddingTop:"40px" }}>
       <div className="row">
         <div
           className="col-md-12"
@@ -1055,6 +1055,7 @@ function home() {
     {/*Start footer area here*/}
     <div
       className="container-fluid"
+      id='main-contact'
       style={{
         backgroundColor: "#0F172B",
         marginTop: "10%",
@@ -1063,15 +1064,12 @@ function home() {
         paddingBottom: 5
       }}
     >
-      <div className="row" id="input-box-sub">
-        <div className="col-md-1" />
-        <div className="col-md-10" id="sub-box">
-          <div className="row">
-            <div className="col-md-12">
+      <div className="row mx-5" id="input-box-sub">
+        <div className="col-md-12" id="sub-box">
               <div className="aaa">
                 <p>
-                  Subscribe Our{" "}
-                  <span style={{ color: "#FEA116" }}>NEWSLETTER</span>
+                  Subscribe Our 
+                  <span style={{ color: "#FEA116" }}> NEWSLETTER</span>
                 </p>
                 <div className="input-group mb-3" id="sss">
                   <input
@@ -1084,21 +1082,17 @@ function home() {
                   <button id="btn-8">SUBMIT</button>
                 </div>
               </div>
-            </div>
-          </div>
         </div>
-        <div className="col-md-1" />
       </div>
-      <div className="row">
-        <div className="col-md-4">
+      <div className="row px-5 py-4">
+        <div className="col-md-5">
           <div
             style={{
               backgroundColor: "#FEA116",
               color: "#fff",
-              padding: 15,
-              borderRadius: 3,
-              height: 200,
-              marginLeft: 15
+              padding: "15px",
+              borderRadius: "3px",
+              height: "200px",
             }}
           >
             <h2>HOTELIER</h2>
