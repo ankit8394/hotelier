@@ -150,6 +150,7 @@ function home() {
             </div>
           </div>
         </div>
+        <div className="container-fluid">
         <div className="row" id="mob-navbar">
           <div className="col-sm-12" id="flex">
             <div className="name-mob">HOTELIER</div>
@@ -159,6 +160,7 @@ function home() {
               </button>
             </div>
           </div>
+        </div>
         </div>
         <div className="row" id="r-mob-dropdown">
           <div className="col-sm-12">
@@ -170,19 +172,19 @@ function home() {
                   </a>
                 </li>
                 <li>
-                  <a href="">About</a>
+                  <a href="#main-about">About</a>
                 </li>
                 <li>
-                  <a href="">Services</a>
+                  <a href="#main-servive">Services</a>
                 </li>
                 <li>
-                  <a href="">ROOMS</a>
+                  <a href="#main-room">ROOMS</a>
                 </li>
                 <li>
                   <a href="">PAGES</a>
                 </li>
                 <li>
-                  <a href="">CONTACT</a>
+                  <a href="#main-contact">CONTACT</a>
                 </li>
               </ul>
             </div>
@@ -451,7 +453,7 @@ function home() {
     </div>
     {/*End about area(2nd part)*/}
     {/* Start explopre room area(3rd part)*/}
-    <div className="container-fluid">
+    <div className="container-fluid" id='main-room'>
       <div className="row" style={{ marginTop: "10%" }}>
         <div className="col-md-12" style={{ textAlign: "center" }}>
           <p style={{ color: "#FEA116" }}>
