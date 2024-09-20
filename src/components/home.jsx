@@ -292,16 +292,15 @@ function home() {
     </div>
     {/*End header area(1st-part)*/}
     {/*Start data area(lower header)*/}
-    <div className="container-fluid" id="datearea">
+    <div className="container" id="datearea">
       <div className="row">
-        <div className="col-md-12">
+        <div className="col-md-12" id='input-box-data'>
           <div className="input">
             <input type="date" className="select" placeholder="Arrival Date" />
           </div>
           <div className="input">
             <input type="date" className="select" placeholder="Arrival Date" />
           </div>
-        </div>
         <div className="input">
             <select name="" className="select">
               <option value="">Adult</option>
@@ -319,11 +318,12 @@ function home() {
         <div className="input">
             <button
               className="btn btn-success"
-              style={{ width: "100%", borderRadius: 3, height: 38 }}
+              style={{ width: "100%"}}
             >
               Submit
             </button>
           </div>
+      </div>
       </div>
     </div>
     {/*End data area*/}

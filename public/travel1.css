@@ -214,6 +214,11 @@ li a
     box-shadow: 10px 5px 12px lightblue;
     margin-top: -40px;
 }
+#input-box-data{
+    display: flex;
+    justify-content: space-between;
+}
+
 #exp
 {
     background-color: #FEA116;
@@ -257,8 +262,8 @@ li a
 }
 .select
 {
-    width: 100%;
     border-radius: 3px;
+    width: 150px;
     border: 1px solid #CED4DA;
     height: 38px;
 }
@@ -451,6 +456,13 @@ li a
     border-right: 2px solid #fff;
 }
 
+@media only screen and (max-width:768px){
+    #input-box-data{
+        display: inline;
+        justify-content: center;
+        align-items: center;
+    }
+}
 @media only screen and (max-width:854px){
     #navbar{
         display: none;
@@ -461,14 +473,7 @@ li a
     .btn-nav span{
         display: none; 
        }
-    .space
-    {
-        border: 6px solid #DEE2E6;
-        border-style: double;
-        text-align: center;
-        padding: 25px;
-        margin: 4px;
-    }
+   
 }
 
 @media only screen and (max-width:1024px) {
