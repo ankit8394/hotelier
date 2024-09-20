@@ -1,0 +1,492 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar
+{
+    background-color: #0F172B;
+    height: 114px;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+.name
+{
+    color: #FEA116;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+    font-weight: 700;
+    padding-top: 15px;
+}
+.name-mob{
+    font-size: 45px;
+    font-weight: 700;
+    color: #FEA116;
+    padding:10px;
+    display: none;
+}
+#mob-navbar{
+    background-color: #0F172B;
+}
+#menu{
+    border: 5px groove grey;
+    border-radius: 5px;
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: #0F172B;
+}
+#mob-icon-bars{
+    color: #fff;
+}
+#r-mob-dropdown{
+    background-color: #0F172B;
+    padding: 0px;
+    display: none;
+}
+.ul-mob-menu li{
+    color: #fff;
+}
+.ul-mob-menu li:hover a{
+    color: #FEA116;
+}
+.active{
+    color: #FEA116;
+}
+.ul-mob-menu{
+    z-index: 1;
+    position: absolute;
+    background-color: #0F172B;
+    width: 95.4%;
+    list-style-type: none;
+    padding: 25px;
+    margin-top: -20px;
+    line-height: 30px;
+}
+#flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#contact
+{
+    background-color: #fff;
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+#contact i{
+    padding: 0px 10px;
+}
+.social-icons i, .social-icons span{
+    color: #FEA116;
+    font-weight: 600;
+    padding: 0px 10px;
+}
+.social-icons
+{   
+    padding-top: 5px;
+}
+li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.home{
+    padding: 0;
+}
+.home li
+{
+    display: inline-block;
+    position: relative;
+    padding:  20px;
+    color: #fff;
+}
+.btn-nav
+{
+    background-color: #FEA116;
+    color: #fff;
+    border: none;
+    padding: 23.5px 25px;
+    font-weight: 600;
+}
+.sub-home li{
+    display: block;
+    padding: 5px;
+}
+.sub-home
+{
+    background-color: #fff;
+    padding: 20px;
+    position: absolute;
+    display: none;
+    color: #000;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: -20px;
+}
+.home a:hover{
+    color: #FEA116;
+}
+.home li:hover .sub-home 
+{
+    display: block;
+    z-index: 1;
+    background-color: #FEA116;
+}
+.sub-home li a:hover
+{
+    color: #fff;
+    font-weight: 600;
+    cursor: grab;
+}
+.sub-home-dropdown
+{
+    color: #FEA116;
+    background-color: #0F172B;
+    width: 115px;
+    padding: 20px;
+    margin-left: 55px;
+    margin-top: -48px;
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    display: none;
+}
+.sub-home li:hover .sub-home-dropdown
+{
+    display: block;
+}
+.sub-home-dropdown:hover a
+{
+    color: #FEA116;
+}
+.icon-arrow
+{
+    color: #fff;
+    font-size: 18px;
+}
+#slide-title
+{
+    margin-bottom: 10%;
+}
+#slide-title h5
+{
+    font-size: 26pt;
+}
+#slide-title
+{
+    font-size: 46pt;
+    font-weight: 700;
+}
+#slide-one
+{
+    background: url(assets/carousel-1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 0px;
+}
+#slide-two
+{
+    background: url(assets/carousel-2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 0px;
+}
+.layer-blk
+{
+    background: rgba(0,0,25,0.7);
+    height: 100vh;
+    padding: 0px;
+}
+#datearea
+{
+    background: #fff;
+    position: absolute;
+    margin-left: 10%;
+    width: 80%;
+    padding: 30px;
+    box-shadow: 10px 5px 12px lightblue;
+    margin-top: -40px;
+}
+#input-box-data{
+    display: flex;
+    justify-content: space-between;
+}
+
+#exp
+{
+    background-color: #FEA116;
+    color: #fff;
+    border: none;
+    width: 100%;
+    font-size: 16pt;
+    padding: 8px;
+    margin-top: 20px;
+}
+.space
+{
+    border: 6px solid #DEE2E6;
+    border-style: double;
+    text-align: center;
+    padding: 25px;
+    margin: 4px;
+}
+#img1
+{
+    margin-top: 40%;
+    margin-left: 10%;
+}
+#img2 
+{
+    margin-left: 4%;
+    margin-top: 8.5%;
+    height: 90%;
+    width: 90%;
+}
+#img3
+{
+    margin-top: 5%;
+    margin-left: 41%;
+}
+#img4
+{
+    width: 60%;
+    margin-top: 2.5%;
+    margin-left: 17%;
+}
+.select
+{
+    border-radius: 3px;
+    width: 150px;
+    border: 1px solid #CED4DA;
+    height: 38px;
+}
+#btn-div #btn1{
+    display: flex;
+    justify-content: flex-end;
+}
+#btn-div #btn2{
+    display: flex;
+    justify-content: flex-start;
+}
+.btn1
+{
+    background-color: #FEA116;
+    color: #fff;
+    font-size: 14pt;
+    border: none;
+    border-radius: 3px;
+    padding: 15PX;
+}
+.btn2
+{
+    background-color: #fff;
+    color: #000;
+    font-size: 13pt;
+    border: none;
+    border-radius: 3px;
+    padding: 15PX;
+    font-weight: 500;
+}
+.p-card-1
+{
+    z-index: 1;
+    position: absolute;
+    margin-top: -29px;
+    background-color: #FEA116;
+    text-align: center; 
+    color: #fff;
+    padding: 3px;
+}
+.btn3
+{
+    background-color: #FEA116;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    width: 100%;
+    height: 40px;
+}
+.btn4
+{
+    background-color: #0F172B;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    width: 100%;
+    height: 40px;
+}
+
+#icon-grp-6
+{
+    color: #FEA116;
+    font-size: 25pt;
+    border: 5px solid #DEE2E6;
+    border-style: double;
+    padding: 20px;
+}
+.card-grp-6
+{
+    text-align: center;
+    background-color: #fff;
+    padding: 60px;
+    border-radius: 1px;
+    margin-bottom: 50px;
+    box-shadow: 0px 14px 15px 3px rgba(0,0,0,0.67);
+}
+.card-grp-6:hover
+{
+    text-align: center;
+    background-color: #FEA116;
+    color: #fff;
+    padding: 60px;
+    border-radius: 1px;
+    margin-bottom: 50px;
+}
+#ab:hover .fa-hotel
+{
+    color:#fff;
+}
+.card
+{
+    margin: 0%;
+    padding: 0%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+#carousel-2
+{
+    background-image: url(assets/carousel-2.jpg) ;
+    background-size: cover;
+    height: 500px;
+    width: 92%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+#client-extra
+{
+    background-color: #fff;
+    margin:10px;
+}
+#f-b
+{
+    color: #fff; 
+    background-color: #FEA116; 
+    font-size: 29pt;
+    text-align: center; 
+    padding: 5px;
+    margin: 5px;
+    width: 50px;
+}
+#icon-div
+{
+    margin-top: -28px;
+    text-align: center;
+}
+.abc li
+{
+    list-style-type: ">";
+    color: #fff;
+}
+#sub-box
+{
+    background-color: #fff;
+    border: 5px solid gray;
+    border-style: double;
+    border-radius: 2px;
+    text-align: center;
+    height: 220px;
+    border-spacing: 20px;
+    margin-top: -20%;
+}
+#input-sub
+{
+    height: 60px;
+    width: 35%;
+    border: 1px solid #CED4DA;
+    font-size: 14pt;
+    padding-left: 15px;
+    border-radius: 2px;
+}
+#sss
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#btn-8
+{
+    border: none;
+    background-color: #fff;
+    margin-left: -10%;
+    background-color: #FEA116;
+    color: #fff;
+    font-size: 14pt;
+    font-weight: 500;
+    border-radius: 2px;
+    padding: 5px;
+    width: 9%;
+}
+.aaa p
+{
+    font-size: 18pt;
+    font-weight: 700;
+    margin-top: 4%;
+}
+.link i{
+    color: #fff;
+    margin-right: 4px;
+    border: 1px solid #fff;
+    padding: 8px;
+    border-radius: 50%;
+}
+.last{
+    display: flex;
+    justify-content: flex-end;
+}
+.last span{
+    padding: 0px 20px;
+    color: #fff;
+    font-size: 20px;
+    border-right: 2px solid #fff;
+}
+
+@media only screen and (max-width:768px){
+    #input-box-data{
+        display: inline;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media only screen and (max-width:854px){
+    #navbar{
+        display: none;
+    }
+    .name-mob{
+        display: block;
+    }
+    .btn-nav span{
+        display: none; 
+       }
+   
+}
+
+@media only screen and (max-width:1024px) {
+ #navbar{
+    width: 100%;
+ }
+ .btn-nav
+ {
+     padding: 11.5px 25px;
+     font-weight: 600;
+ }
+ .home li{
+    padding: 10px;
+ }
+
+}
