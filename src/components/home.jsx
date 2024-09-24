@@ -4,7 +4,7 @@ function home() {
   return (
     <>
     {/*Start Main header part here*/}
-    <div className="container-fluid">
+    <div className="container-fluid" style={{padding:"0px"}}>
       <nav>
         <div className="row" id="navbar">
           <div className="col-md-3">
@@ -318,7 +318,6 @@ function home() {
         <div className="input">
             <button
               className="btn btn-success"
-              style={{ width: "100%"}}
             >
               Submit
             </button>
