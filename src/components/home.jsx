@@ -315,9 +315,10 @@ function home() {
             <option value="">Adult2</option>
           </select>
         </div>
-        <div className="input">
+        <div className="input" style={{border:"none"}}>
             <button
               className="btn btn-success"
+              style={{width:"100%"}}
             >
               Submit
             </button>

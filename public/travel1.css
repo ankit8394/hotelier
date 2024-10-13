@@ -204,20 +204,25 @@ li a
     height: 100vh;
     padding: 0px;
 }
-#datearea
-{
-    background: #fff;
+
+#input-box-data{
+    box-shadow: 10px 5px 12px lightblue;
     position: absolute;
-    margin-left: 10%;
+    margin-left: 3.4%;
     width: 80%;
     padding: 30px;
-    box-shadow: 10px 5px 12px lightblue;
     margin-top: -40px;
-}
-#input-box-data{
+    background: #fff;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
+#input-box-data .input{
+    margin: 10px 40px;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
 
 #exp
 {
@@ -498,13 +503,17 @@ li a
       width: 20px;
       height: 20px;
     }
-    .input{
-        padding: 10px 0px;
-    }
     #input-box-data{
-        display: flex;
-        justify-content: center;
+        box-shadow: 10px 5px 12px lightblue;
+        position: absolute;
+        padding-left: 100px;
+        width: 80%;
+        padding: 30px;
+        margin-top: -40px;
+        background: #fff;
+        
     }
+    
   }
   
 
