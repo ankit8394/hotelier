@@ -51,24 +51,24 @@ function home() {
                       <a href="#main-home">HOME</a>
                       <ul className="sub-home">
                         <li>
-                          <a href="">home1</a>
+                          <a href="#">home1</a>
                           <ul className="sub-home-dropdown">
                             <li>
-                              <a href="">home1-1</a>
+                              <a href="#">home1-1</a>
                             </li>
                             <li>
-                              <a href="">home1-2</a>
+                              <a href="#">home1-2</a>
                             </li>
                             <li>
-                              <a href="">home1-3</a>
+                              <a href="#">home1-3</a>
                             </li>
                           </ul>
                         </li>
                         <li>
-                          <a href="">home2</a>
+                          <a href="#">home2</a>
                         </li>
                         <li>
-                          <a href="">home3</a>
+                          <a href="#">home3</a>
                         </li>
                       </ul>
                     </li>
@@ -76,13 +76,13 @@ function home() {
                       <a href="#main-about">ABOUT</a>
                       <ul className="sub-home">
                         <li>
-                          <a href="">about1</a>
+                          <a href="#">about1</a>
                         </li>
                         <li>
-                          <a href="">about2</a>
+                          <a href="#">about2</a>
                         </li>
                         <li>
-                          <a href="">about3</a>
+                          <a href="#">about3</a>
                         </li>
                       </ul>
                     </li>
@@ -90,13 +90,13 @@ function home() {
                       <a href="#main-service">SERVICES</a>
                       <ul className="sub-home">
                         <li>
-                          <a href="">service1</a>
+                          <a href="#">service1</a>
                         </li>
                         <li>
-                          <a href="">service2</a>
+                          <a href="#">service2</a>
                         </li>
                         <li>
-                          <a href="">service3</a>
+                          <a href="#">service3</a>
                         </li>
                       </ul>
                     </li>
@@ -104,27 +104,27 @@ function home() {
                       <a href="#main-room">ROOMS</a>
                       <ul className="sub-home">
                         <li>
-                          <a href="">Economic</a>
+                          <a href="#">Economic</a>
                         </li>
                         <li>
-                          <a href="">Deluxe</a>
+                          <a href="#">Deluxe</a>
                         </li>
                         <li>
-                          <a href="">Super Deluxe</a>
+                          <a href="#">Super Deluxe</a>
                         </li>
                       </ul>
                     </li>
                     <li>
-                      <a href="">PAGES</a>
+                      <a href="#">PAGES</a>
                       <ul className="sub-home">
                         <li>
-                          <a href="">page1</a>
+                          <a href="#">page1</a>
                         </li>
                         <li>
-                          <a href="">page2</a>
+                          <a href="#">page2</a>
                         </li>
                         <li>
-                          <a href="">page3</a>
+                          <a href="#">page3</a>
                         </li>
                       </ul>
                     </li>
@@ -132,10 +132,10 @@ function home() {
                       <a href="#main-contact">CONTACT</a>
                       <ul className="sub-home">
                         <li>
-                          <a href="">ankit0839483@gmail.com</a>
+                          <a href="mailto:ankit0839483@gmail.com">ankit0839483@gmail.com</a>
                         </li>
                         <li>
-                          <a href="">+91 8394834953</a>
+                          <a href="#">+91 8394834953</a>
                         </li>
                       </ul>
                     </li>
@@ -167,7 +167,7 @@ function home() {
             <div>
               <ul className="ul-mob-menu">
                 <li>
-                  <a href="" className="active">
+                  <a href="#" className="active">
                     Home
                   </a>
                 </li>
@@ -181,7 +181,7 @@ function home() {
                   <a href="#main-room">ROOMS</a>
                 </li>
                 <li>
-                  <a href="">PAGES</a>
+                  <a href="#">PAGES</a>
                 </li>
                 <li>
                   <a href="#main-contact">CONTACT</a>
