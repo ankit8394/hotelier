@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: hotelier
+    env: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: build
+    plan: free
+    envVars:
+      - key: NODE_VERSION
+        value: 18.18.0
+      - key: BUN_INSTALL
+        value: "false"
